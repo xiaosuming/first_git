@@ -1,0 +1,187 @@
+ file:///home/xiaosuming/apidoc/index.html
+ apidoc  -i  themis_20 -o /home/xiaosuming/apidoc
+ http://192.168.50.86/index.html
+ http://desk.dev.com/
+ https://192.168.50.37/p/c-lk4cz:p-sgjmg/workloads/default:themis-deployment-65c58486df-69cs2
+ -i https://mirrors.aliyun.com/pypi/simple/
+ http://192.168.50.19:8081/sunsidetech/backend/konkiimsg
+ https://192.168.50.37:4443/login
+ http://127.0.0.1:8000/api/swagger/
+ https://github.com/iamshuaidi/CS-Book   计算机基础书籍总汇
+ s_logger.glob.info(f"1-{res}")#打印返回结果
+ 
+ pip freeze > requirements.txt
+ pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
+ 
+ mysql -u root -p
+ show databases
+ drop database
+ create database
+ 
+ 密码：[Qwe12345]
+ http://lookdiv.com/
+
+git add .
+git commit -m "原子操作"
+git checkout pre-release
+git merge dev
+git push
+
+#用git命令拉项目
+git clone https://github.com/ximsfei/Android-skin-support.git
+
+#Jenkins帐号密码
+Jenkins：wangchen  123456
+
+
+
+#云桌面本地数据库
+{
+  "DATABASE": {
+    "MYSQL": {
+      "ENGINE": "django.db.backends.mysql",
+      "NAME": "new_mysql",
+      "USER": "root",
+      "HOST": "172.17.0.1",
+      "PASSWORD": "12345678",
+      "PORT": "3307",
+      "TEST": {
+    "CHARSET": "utf8",
+    "COLLATION":"utf8_general_ci"
+    }
+    }
+  },
+  "REDIS": {
+    "HOST": "127.0.0.1",
+    "PORT": 6379,
+    "PASSWORD": null,
+    "DB": 0
+  },
+  "FRONTEND": "http://192.168.50.42:8000",
+  "DEBUG": true
+}
+
+
+{
+  "DATABASE": {
+    "MYSQL": {
+      "NAME": "themis",
+      "USER": "konkii",
+      "PASSWORD": "Qwe54321",
+      "HOST": "mysql-service.konkii-cube-public",
+      "PORT": "3306"
+    }
+  },
+  "REDIS": {
+    "HOST": "redis-service.konkii-cube-public",
+    "PORT": 6379,
+    "PASSWORD": 123456,
+    "DB": 0
+  },
+  "FRONTEND": "http://desk.dev.com",
+  "DEBUG": false,
+  "SDN": "dev"
+}
+
+
+云桌面dev数据库
+{
+  "DATABASE": {
+    "MYSQL": {
+      "NAME": "themis",
+      "USER": "konkii",
+      "PASSWORD": "Qwe54321",
+      "HOST": "192.168.50.252",
+      "PORT": "3306"
+    }
+  },
+  "REDIS": {
+    "HOST": "127.0.0.1",
+    "PORT": 6379,
+    "PASSWORD": null,
+    "DB": 0
+  },
+  "FRONTEND": "http://desk.dev.com",
+  "DEBUG": true,
+  "SDN": "dev"
+}
+
+
+
+仪电云
+{
+  "DATABASE": {
+    "MYSQL": {
+      "NAME": "themis",
+      "USER": "root",
+      "PASSWORD": "123456",
+      "HOST": "127.0.0.1",
+      "PORT": "3306"
+    }
+  },
+  "REDIS": {
+    "HOST": "127.0.0.1",
+    "PORT": 6379,
+    "PASSWORD": null,
+    "DB": 0
+  },
+  "FRONTEND": "http://desk.dev.com",
+  "DEBUG": true,
+  "SDN": "dev",
+  "KUBE_URL": "https://192.168.50.37:6443",
+  "KUBE_TOKEN": "kubeconfig-user-mpb8n.c-vpgbr:fzg7g9z54wk8gddwk9648dv29crjwvp7dkwbjjkkwq9b7h6lztcvqt",
+  "APP_CLIENT_ID": "1UD9AwS4d2jt6zMDNQZLIh27aVzd3I2QaWgyNXpX",
+  "APP_CLIENT_SECRET": "X7kloVzJSJOAvXfwfH1jN3bIEbc33g7iXvW2AdGYFCVuyJSYUFYPOsSq4b9wrb7liRd9QI1YOx3NYm8lZWGWbw2wjkqZDO2jss8JJzAuQ3Ax2euJn2MTEixwTn44j18N"
+}
+
+
+
+
+{
+  "DATABASE": {
+    "MYSQL": {
+      "NAME": "themis",
+      "USER": "root",
+      "PASSWORD": "123456",
+      "HOST": "127.0.0.1",
+      "PORT": "3306"
+    }
+  },
+  "REDIS": {
+    "HOST": "127.0.0.1",
+    "PORT": 6379,
+    "PASSWORD": null,
+    "DB": 0
+  },
+  "FRONTEND": "http://desk.dev.com",
+  "DEBUG": true,
+  "SDN": "dev",
+  "KUBE_URL": "https://192.168.50.37:6443",
+  "KUBE_TOKEN": "kubeconfig-user-mpb8n.c-vpgbr:fzg7g9z54wk8gddwk9648dv29crjwvp7dkwbjjkkwq9b7h6lztcvqt",
+  "APP_CLIENT_ID": "1UD9AwS4d2jt6zMDNQZLIh27aVzd3I2QaWgyNXpX",
+  "APP_CLIENT_SECRET": "X7kloVzJSJOAvXfwfH1jN3bIEbc33g7iXvW2AdGYFCVuyJSYUFYPOsSq4b9wrb7liRd9QI1YOx3NYm8lZWGWbw2wjkqZDO2jss8JJzAuQ3Ax2euJn2MTEixwTn44j18N"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
